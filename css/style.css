@@ -3,6 +3,7 @@
 html,body{
     margin: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 :root{
 
@@ -455,5 +456,8 @@ footer.footer .move-up span:hover{
     }
     nav .toggle-collapse{
         width: 80% !important;
+    }
+    .nav .nav-brand a{
+        padding: 1rem 3rem;
     }
 }
